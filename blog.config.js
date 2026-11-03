@@ -1,12 +1,12 @@
 const BLOG = {
-  title: 'Notionic',
-  author: '左藍',
-  email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
-  newsletter: 'Notionic Weekly',
+  title: '我的github專案',
+  author: 'scupr',
+  email: 'scupr@dogbro.store',
+  link: 'https://dogbro.store',
+  newsletter: 'Scupr Weekly',
   description: 'A static blog build on top of Notion and Next.js',
   lang: 'zh-TW', // ['en-US', 'zh-TW', 'zh-HK', 'ja-JP', 'es-ES']
-  timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
+  timezone: 'Asia/Taipei', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
@@ -29,12 +29,12 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    twitter: 'https://twitter.com/',
+    github: 'https://github.com/',
+    telegram: 'https://t.me/'
   },
   seo: {
-    keywords: ['Notionic', 'Zuolan', 'Blog'],
+    keywords: ['Github', 'Repo', 'scupro'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
@@ -43,8 +43,8 @@ const BLOG = {
   notionDomain: 'zuolan.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '263895784', // The chat id of your Telegram bot
-  telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
-  telegramChannelName: 'zuolan_me', // The name of your Telegram channel
+  telegramChannelUrl: '', // The link of your Telegram channel
+  telegramChannelName: 'scupro', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
